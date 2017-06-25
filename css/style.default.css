@@ -2149,3 +2149,15 @@ a.list-group-item.active > .badge,
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+.skills {
+  font-style: italic;
+}
+
+.bun {
+  list-style-image: url("http://i.imgur.com/Qw1LD5J.png");
+}
+
+.move {
+  padding-left: 7px;
+}
