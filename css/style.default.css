@@ -1619,7 +1619,8 @@ a {
 a:hover,
 a:focus {
   color: #e01557;
-  text-decoration: underline;
+  /*Change to underline to get line under nav items*/
+  text-decoration: none;
 }
 a:focus {
   outline: thin dotted;
@@ -2158,6 +2159,10 @@ a.list-group-item.active > .badge,
   list-style-image: url("http://i.imgur.com/Qw1LD5J.png");
 }
 
-.move {
+.moveNav {
   padding-left: 7px;
+}
+
+.move {
+  padding-left: 8px;
 }
