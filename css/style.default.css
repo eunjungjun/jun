@@ -2151,12 +2151,13 @@ a.list-group-item.active > .badge,
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
-.skills {
+.bunIco {
   font-style: italic;
+  list-style-image: url("http://i.imgur.com/Qw1LD5J.png");
 }
 
 .bun {
-  list-style-image: url("http://i.imgur.com/Qw1LD5J.png");
+  font-style: italic;
 }
 
 .moveNav {
