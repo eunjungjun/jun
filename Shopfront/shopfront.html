@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>the Rocket group</title>
+	<meta charset="utf-8">
+	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-RpX8okQqCyUNG7PlOYNybyJXYTtGQH+7rIKiVvg1DLg6jahLEk47VvpUyS+E2/uJ" crossorigin="anonymous">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="shopfront.js"></script>
+	<link href="shopfront.css" rel="stylesheet">
+	<link href="http://i.imgur.com/DJlOjEW.png" rel="icon">
+</head>
+
+<body>
+	<div class="row">
+		<div class="col-md-3">
+			<div id="mySidenav" class="sidenav">
+				<!--javascript:void(0) results in undefined to allow browser to stay on the same page instead of redirecting-->
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  				<a href="#" id="menu-1">Home</a>
+  					<ul id="list-1">
+  						<li class="submenus submenu-1"><a href="#">Account</a></li>
+  						<li class="submenus submenu-1"><a href="#">Messages</a></li>
+  					</ul>
+  				<a href="#" id="menu-2">About</a>
+  					<ul id="list-2">
+  						<li class="submenus submenu-2"><a href="#">Our Mission</a></li>
+  						<li class="submenus submenu-2"><a href="#">FAQ</a></li>
+  					</ul>
+  				<a href="#" id="menu-3">Services</a>
+  				  	<ul id="list-3">
+  				  		<li class="submenus submenu-3"><a href="#">The Exchange</a></li>
+  						<li class="submenus submenu-3"><a href="#">Pok&#233;Rental</a></li>
+  						<li class="submenus submenu-3"><a href="#">Underground Union</a></li>
+  					</ul>
+  				<a href="#" id="menu-4">Join Our Team</a>
+  					<ul id="list-4">
+  				  		<li class="submenus submenu-4"><a href="#">Available Positions</a></li>
+  						<li class="submenus submenu-4"><a href="#">Employment Benefits</a></li>
+  						<li class="submenus submenu-4"><a href="#">Application</a></li>
+  					</ul>
+  				<a href="#">Contact</a>
+  				<img id="logo" src="http://i.imgur.com/DJlOjEW.png">
+  				<center><a href="#" id="subscribe">Subscribe to the monthly<br>Rocket newsletter</a>
+  				<input type="text" id="news" placeholder="team@rocket.org">
+  				<button type="button" class="btn-sm">Submit</button></center>
+  				<center><span id="rights">Pok&#233;mon is trademark and © of Nintendo</span></center>
+			</div>
+			<span id="open" style="font-size:30px;cursor:pointer" onclick="openNav()">
+				<img src="http://i.imgur.com/dolsCbK.png" id="persian">
+				<div class="overlay">
+    				<div class="text">&#9776;</div>
+  				</div>
+			</span>
+			<div class="alert alert-danger" id="news_feed_title">
+				<center>The Daily <span id="title-1">R</span>ocket</center>
+			</div>
+			<div class="alert alert-danger" id="news_feed">
+          		<ul id="news_items">
+          		</ul>
+        	</div>
+		</div>
+		<div class="col-md-9">
+			<header>
+				<center>
+					<span id="header-1">the <span id="header-1-2">R</span>ocket group:</span><span id="header-2"> Offering secure Pok&#233; Ball exchange since 1996</span>
+					<hr>
+				</center>
+			</header>
+			<table>
+				<tr>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/7/79/Dream_Pok%C3%A9_Ball_Sprite.png/60px-Dream_Pok%C3%A9_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/b/bf/Dream_Great_Ball_Sprite.png/60px-Dream_Great_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/a/a8/Dream_Ultra_Ball_Sprite.png/60px-Dream_Ultra_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/9/95/Dream_Master_Ball_Sprite.png/60px-Dream_Master_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/1/15/Dream_Safari_Ball_Sprite.png/60px-Dream_Safari_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/1/19/Dream_Level_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/b/bd/Dream_Lure_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/2/22/Dream_Moon_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/7/7a/Dream_Friend_Ball_Sprite.png">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/9/94/Dream_Love_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/b/bb/Dream_Heavy_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/4/44/Dream_Fast_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/d/df/Dream_Sport_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/6/64/Dream_Premier_Ball_Sprite.png/60px-Dream_Premier_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/d/df/Dream_Repeat_Ball_Sprite.png/60px-Dream_Repeat_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/f/f0/Dream_Timer_Ball_Sprite.png/60px-Dream_Timer_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/8/8c/Dream_Nest_Ball_Sprite.png/60px-Dream_Nest_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/a/a0/Dream_Net_Ball_Sprite.png/60px-Dream_Net_Ball_Sprite.png">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/9/9a/Dream_Dive_Ball_Sprite.png/60px-Dream_Dive_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/7/7e/Dream_Luxury_Ball_Sprite.png/60px-Dream_Luxury_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/0/0e/Dream_Heal_Ball_Sprite.png/60px-Dream_Heal_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/9/90/Dream_Quick_Ball_Sprite.png/60px-Dream_Quick_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/thumb/5/59/Dream_Dusk_Ball_Sprite.png/60px-Dream_Dusk_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/f/f6/Dream_Cherish_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/0/09/Dream_Park_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/2/27/Dream_Dream_Ball_Sprite.png">
+					</td>
+					<td>
+						<img class="anim" src="https://cdn.bulbagarden.net/upload/6/65/Dream_Beast_Ball_Sprite.png">
+					</td>
+				</tr>
+			</table>
+			<center><button type="button" class="btn-lg">Proceed to Exchange</button></center>
+		</div>
+	</div>
+</body>
+</html>

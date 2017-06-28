@@ -1,0 +1,91 @@
+body {
+	background-image: url("http://www.designbolts.com/wp-content/uploads/2012/11/Free-Stressed-linen-patterns.jpg");
+	overflow: hidden;
+}
+
+#logo {
+	position: relative;
+	top: 30px;
+	opacity: 0.8;
+	height: 15%;
+	width: 15%;
+}
+
+#login_box {
+	position: relative;
+	top: 75px;
+	height: 220px;
+	width: 400px;
+	background-color: rgb(10,0,0);
+	border-radius: 15px;
+	border: 1px double black;
+	box-shadow: 3px 3px 10px black;
+	opacity: 0.6;
+}
+
+#login_header {
+	position: relative;
+	bottom: 144px;
+	height: 45px;
+	width: 400px;
+	background-color: black;
+	border-radius: 15px 15px 0px 0px;
+	opacity: 0.8;
+}
+
+#header_text {
+	position: relative;
+	top: 5px;
+	font-size: 24px;
+}
+
+#user {
+	position: relative;
+	z-index: 1;
+	padding: 10px;
+	bottom: 130px;
+}
+
+#user_box{
+	background-color: rgb(204,204,204);
+}
+
+#password {
+	position: relative;
+	z-index: 1;
+	padding: 10px;
+	bottom: 130px;
+}
+
+#pass_box {
+	background-color: rgb(204,204,204);
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+::-moz-placeholder {
+   text-align: center;
+}
+
+#loginButton {
+	position: relative;
+	width: 100px;
+	bottom: 115px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+#JJM {
+	position: absolute;
+	z-index: 1;
+   	top: 50%;
+   	left: 50%;
+   	width: 500px;
+   	height: 500px;
+   	margin-top: -250px;
+   	margin-left: -250px;
+   	border-radius: 50%;
+   	border: 10px solid rgb(22,0,0);
+}
