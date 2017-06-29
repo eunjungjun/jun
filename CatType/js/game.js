@@ -112,9 +112,9 @@ function createGirl() {
 	$("#container").append($("<div>").attr("id","girl"));
 	$("#girl").css({
 		"position": "relative",
-		"top": "118px",
+		"top": "-5px",
 	    "bottom": "0",
-	    "left": "997px",
+	    "left": "676px",
 	    "right": "0",
 		"width": "42px",
 		"height": "42px",
@@ -151,8 +151,8 @@ function createCat() {
 		var choice0 = randomInt(1,9);
 		var choice1 = randomInt(1,15);
 		if (!(picked.includes(choice1))) {
-			var mult0 = 126 + (42 * choice0);
-			var mult1 = 329 + (42 * choice1);
+			var mult0 = 3 + (42 * choice0);
+			var mult1 = 7 + (42 * choice1);
 			picked.push(choice1);
 			locations.push([choice0,choice1]);
 			$("#container").append($("<div>").attr({
@@ -341,32 +341,32 @@ $(document).keydown(function(e) {
 
 		//Go left
 		case 37:
-			if ($("#girl").position().left > 325) {
-				$("#girl").css("left",$("#girl").offset().left - 42);
+			if ($("#girl").position().left > 4) {
+				$("#girl").css("left",$("#girl").position().left - 42);
 				girlLoc[1]--;
 			}
 			break;
 
 		//Go up
 		case 38:
-			if ($("#girl").position().top > 139) {
-				$("#girl").css("top",$("#girl").offset().top - 42);
+			if ($("#girl").position().top > -5) {
+				$("#girl").css("top",$("#girl").position().top - 42);
 				girlLoc[0]--;
 			}
 			break;
 
 		//Go right
 		case 39:
-			if ($("#girl").position().left < 997) {
-				$("#girl").css("left",$("#girl").offset().left + 42);
+			if ($("#girl").position().left < 676) {
+				$("#girl").css("left",$("#girl").position().left + 42);
 				girlLoc[1]++;
 			}
 			break;
 
 		//Go down
 		case 40:
-			if ($("#girl").position().top < 475) {
-				$("#girl").css("top",$("#girl").offset().top + 42);
+			if ($("#girl").position().top < 373) {
+				$("#girl").css("top",$("#girl").position().top + 42);
 				girlLoc[0]++;
 			}
 			break;
