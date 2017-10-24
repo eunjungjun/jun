@@ -2165,10 +2165,10 @@ a.list-group-item.active > .badge,
   color: black !important;
 }
 
-.desc {
-  font-size: 14px;
-  padding-left: 35px;
-  font-style: italic;
+li.desc {
+  font-size: 14px !important;
+  padding-left: 35px !important;
+  font-style: italic !important;
 }
 
 .moveNav {
