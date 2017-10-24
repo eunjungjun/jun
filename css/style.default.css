@@ -2160,6 +2160,17 @@ a.list-group-item.active > .badge,
   font-style: italic;
 }
 
+.ttl {
+  font-style: italic;
+  color: black !important;
+}
+
+.desc {
+  font-size: 14px;
+  padding-left: 35px;
+  font-style: italic;
+}
+
 .moveNav {
   padding-left: 7px;
 }
